@@ -1,0 +1,60 @@
+body{
+  font-family: sans-serif;
+}
+
+.login_form{
+  width: 400px;
+  margin: 0 auto;
+  margin-top: 100px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000;
+  margin-bottom: 60px;
+  background-color: rgb(121, 190, 207);
+  transition: .3s;
+}
+
+.login_form h1{
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+
+.login_form input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  background: transparent;
+  transition: .4s;
+}
+
+#Formid label{
+  font-size: 20px;
+  margin-bottom: 10px;
+  transition: .4s;
+}
+
+.login_form input:focus{
+  border-bottom: 2px solid rgb(90, 228, 102);
+  
+}
+
+.login_form input[type="submit"]{
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+.login_form input[type="submit"]:hover{
+  background: rgb(29, 170, 123);
+  color: #000;
+  border: 1px solid #000;
+}
